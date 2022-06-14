@@ -1,4 +1,4 @@
-package Class15;
+package com.syntax.Class15;
 
 public class Task4 {
     void sayHello(String country) {

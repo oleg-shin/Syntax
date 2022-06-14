@@ -1,4 +1,4 @@
-package Class15;
+package com.syntax.Class15;
 
 public class ArrayUtils {
     void printArray(int[] arr) {

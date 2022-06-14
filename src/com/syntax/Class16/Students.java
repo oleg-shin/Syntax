@@ -1,4 +1,4 @@
-package Class16;
+package com.syntax.Class16;
 
 public class Students {
     String Name;

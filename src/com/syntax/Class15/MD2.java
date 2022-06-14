@@ -1,4 +1,4 @@
-package Class15;
+package com.syntax.Class15;
 
 public class MD2 {
     public static void main(String[] args) {

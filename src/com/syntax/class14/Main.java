@@ -1,4 +1,4 @@
-package com.syntax.class15;
+package com.syntax.class14;
 
 public class Main {
     public static void main(String[] args) {

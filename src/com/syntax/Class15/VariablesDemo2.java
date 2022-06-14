@@ -1,4 +1,4 @@
-package Class15;
+package com.syntax.Class15;
 
 public class VariablesDemo2 {
     int num =10; //whenever you have to share some info in more than one method of a class - use instance variables

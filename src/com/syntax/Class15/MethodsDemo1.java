@@ -1,6 +1,4 @@
-package Class15;
-
-import java.lang.reflect.Method;
+package com.syntax.Class15;
 
 public class MethodsDemo1 {
     void method1(){

@@ -1,4 +1,4 @@
-package Class15;
+package com.syntax.Class15;
 
 public class Task2 {
     void printEvenOdd(int a){
