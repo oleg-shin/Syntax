@@ -22,3 +22,6 @@ Rulse:
 Single inheritance - only one parent and one child
 
 Hierarchical inheritance - more than one child classes have the same parent class
+
+only protected variable can be access through inheritance class if they are in different packages
+public variable can be access without inheritance
