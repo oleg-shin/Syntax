@@ -1,7 +1,7 @@
 package com.syntax.Class16;
 
 public class Dog {
-    String name;
+     String name;
     String color;
 
     public static void main(String[] args) {
