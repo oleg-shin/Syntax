@@ -1,19 +1,25 @@
 package com.syntax.class18;
 
 class test {
-    static String surround(String s, String search_term){
-        String bb = "("+search_term+")";
-
-        return s.replace(search_term,bb);
-
+    String alphabetical(String str) {
+        String newstr = "";
+        int temp = 0;
+        char[] charArray = str.toCharArray();
+        for (int a = 1; a < str.length(); a++) {
+            for (int b = a-1; b <=a ; b++) {
+                if (str.charAt(a)<str.charAt(b)) {
+                    newstr=newstr + charArray[b];
+                }
+            }
+        }
+        return newstr;
     }
 
-
-    //test case below (dont change):
-    public static void main(String[] args){
-        System.out.println(surround("abcabcabc","c")); //"ab(c)ab(c)ab(c)"
-        System.out.println(surround("technology","o")); //"techn(o)l(o)gy"
+    public static void main(String[] args) {
+        test t = new test();
+        System.out.println(t.alphabetical("hello"));
     }
+
 }
 
 

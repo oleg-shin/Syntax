@@ -1,0 +1,18 @@
+what is super kewword:
+    super keyword in java is used to refer to the parent class object.
+why should we learn super keyword:
+    1) if we have same name variable or method in the super/parent/base class then we
+    can use the super keyword to refer to parent class variable or method because by
+    default java prefers the variable of child class. We can also call the super class
+    constructor with the help of super with parenthesis super():
+how to use super keyword:
+    1) We can use super. method name or field name to call the method or to access
+    the field of super class
+    2) use super with parenthesis to call the super class constructor super()
+rules:
+    1) can inly access the immediate parent class constructor or
+    field or method with the help of super keyword
+    2) we can only use super()  inside the constructor
+    3) if we have user created a constructor in the parent class, we must have a matching constructor
+    inside the child classes as well
+    4) super(0 should be the first line a costructor

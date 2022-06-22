@@ -8,4 +8,6 @@ public class Laptop {
     void printModel(){
         System.out.println(model);
     }
+
+
 }
