@@ -1,0 +1,3 @@
+what is MethodOverriding:
+    Happens when same method exists inside the parent class and the child class
+why we should override a method:
