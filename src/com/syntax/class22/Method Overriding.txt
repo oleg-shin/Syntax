@@ -12,6 +12,7 @@ Rules:
     2) the method in the parent class that we want to override must be exactly the same
     as method in the child class only the access modifiers can be different
     3) the access modifiers in the parent class can only be increased with respect to the
-    visibility for example we can change defaul to protected or to public, but we cannot
+    visibility for example we can change default to protected or to public, but we cannot
     make it private
     4) if something is not inherited we can't override it for example private methods and constructors.
+    5) we can't override constructors because they are also not inherited

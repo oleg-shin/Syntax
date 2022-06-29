@@ -10,9 +10,9 @@ how to use super keyword:
     the field of super class
     2) use super with parenthesis to call the super class constructor super()
 rules:
-    1) can inly access the immediate parent class constructor or
+    1) can only access the immediate parent class constructor or
     field or method with the help of super keyword
     2) we can only use super()  inside the constructor
     3) if we have user created a constructor in the parent class, we must have a matching constructor
     inside the child classes as well
-    4) super(0 should be the first line a costructor
+    4) super() should be the first line a costructor
