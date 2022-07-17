@@ -1,0 +1,7 @@
+Encapsulation
+    is 4th pillar of OOPs
+    is a mechanism that provides us security, if we use encapsulation we can have more security
+
+How we should use Encapsulation:
+    1) make your variables as private
+    2) create setter and getter methods to read and write these fields

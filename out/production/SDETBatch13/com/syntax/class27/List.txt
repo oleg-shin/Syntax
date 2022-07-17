@@ -1,0 +1,17 @@
+List is the first interface that we will be discussing from the collections framework:
+List:
+    we can store duplicate data
+    insertion order is maintained
+
+ArrayList:
+    LinkedList class:
+        joining in a minute
+Difference between ArrayList and Linked List:
+    ArrayList:
+            Upside: Retrieval(get operation) of elements is super Fast
+            Downside: adding elements in the middle or start will be very expensive(a lot of shifting)
+
+    LinkedList:
+            Upside: whenever we have to insert the data randomly not at the last index, we should be using
+                    llinked list
+            Downside: retrieval is super slow if the lis is big

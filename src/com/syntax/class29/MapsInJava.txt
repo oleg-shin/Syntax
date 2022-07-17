@@ -1,0 +1,32 @@
+Map:
+    Allow to store key value pairs.
+    First Entry is treated as key and second one is value.
+    Keys can't be duplicate but values can be.
+
+    Map<Integer, String> items = new HashMap<>();
+
+    There are many types of Map as sets but we will only discuss 3 of them:
+        1) HashMap
+        2) LinkedHashedMap
+        3) TreeMap
+
+HashMap:
+    it is fastest when it comes to insert and retrieve the data
+    Downside: insertion order is not maintained
+
+LinkedHashMap:
+    Upside: insertion order is maintained
+    Downside: insertion speed is slower than HashMap, retrieval speed is slowest of all
+
+TreeSet:
+    Upside: Data is stored in sorted form always
+    Downside: insertion speed is very slow
+
+Choose proper DataStructur.
+    Q: Store unique name in the sorted form.
+    A: TreeSet
+    Q2: Store the names of the students and most of the time we will be performing operation
+    relating to data retrieval based on index
+    A: ArrayList
+    Q3: store item names and their prices, maintained insertion order
+    A: LinkedHashMap
